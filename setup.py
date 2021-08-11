@@ -19,17 +19,18 @@ def get_version(path):
 
 
 setuptools.setup(
-    name='template_pypi',
-    version=get_version("template_pypi/__init__.py"),
-    description='lorem ipsum',
+    name='torch-kshingle-embedding',
+    version=get_version("torch-kshingle-embedding/__init__.py"),
+    description='Training of multi-label embeddings with k-shingled input sequences',
     long_description=read('README.rst'),
-    url='http://github.com/myorg/template_pypi',
-    author='John Doe',
+    url='http://github.com/ulf1/torch-kshingle-embedding',
+    author='Ulf Hamster',
     author_email='554c46@gmail.com',
     license='Apache License 2.0',
-    packages=['template_pypi'],
-    install_requires=[],
-    # scripts=['scripts/examplescript.py'],
+    packages=['torch_kshingle_embedding'],
+    install_requires=[
+        "torch>=1.1.0,<2"
+    ],
     python_requires='>=3.6',
     zip_safe=True
 )

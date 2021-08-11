@@ -3,12 +3,14 @@
     "name": "Ulf Hamster",
     "orcid": "0000-0002-0440-4868"
   }],
-  "title": "template_pypi: Lorem Ipsum",
-  "description": "Lorem Ipsum.",
+  "title": "torch-kshingle-embedding : Training of multi-label embeddings with k-shingled input sequences",
+  "description": "k-shingled input sequences are multi-dimensional, i.e. the input embedding must process multi-label inputs instead of one-hot encoded inputs.",
   "license": "Apache-2.0",
   "upload_type": "software",
   "keywords": [
-    "keyword 1",
-    "keyword 2"
+    "k-shingle",
+    "multi-label embedding",
+    "input embedding",
+    "word2vec"
   ]
 }
