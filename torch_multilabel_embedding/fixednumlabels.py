@@ -2,7 +2,10 @@ import torch
 
 
 class MultiLabelEmbedding(torch.nn.Module):
-    """
+    """ Multi-label embedding for a fixed number of labels per data point
+
+    Examples:
+    ---------
     examples = [[1, 2, 4], [0, 1, 2], [2, 1, 4], [3, 2, 1]]
     examples = torch.tensor(examples)
     layer1 = MultiLabelEmbedding(
@@ -34,5 +37,5 @@ class MultiLabelEmbedding(torch.nn.Module):
 
     def forward(self, inputs: torch.int64):
         h = self.weight[inputs]
-        h = h.sum(axis=1)
+        h = h.sum(axis=-2)  # vorletzte Dim muss es sein.
         return h
