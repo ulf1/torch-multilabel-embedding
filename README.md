@@ -1,5 +1,5 @@
 [![PyPI version](https://badge.fury.io/py/torch-multilabel-embedding.svg)](https://badge.fury.io/py/torch-multilabel-embedding)
-<!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4284804.svg)](https://doi.org/10.5281/zenodo.4284804) -->
+[![DOI](https://zenodo.org/badge/394390178.svg)](https://zenodo.org/badge/latestdoi/394390178)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/ulf1/torch-multilabel-embedding.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ulf1/torch-multilabel-embedding/alerts/)
 [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/ulf1/torch-multilabel-embedding.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ulf1/torch-multilabel-embedding/context:python)
 
