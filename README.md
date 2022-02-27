@@ -8,12 +8,21 @@ k-shingled input sequences are multi-dimensional, i.e. the input embedding must 
 
 ## Usage
 
-Table of Contents
+```py
+import torch_multilabel_embedding as tml
+import torch
 
-* [Use Case 1](#use-case-1)
+# a sequence of multi-label data points
+x_ids = [[1, 2, 4], [0, 1, 2], [2, 1, 4], [3, 2, 1]]
+x_ids = torch.tensor(x_ids)
 
+# initialize layer
+layer = tml.MultiLabelEmbedding(
+    vocab_size=5, embed_size=300, random_state=42)
 
-### Use Case 1
+# predict
+y = layer(x_ids)
+```
 
 
 ## Appendix
