@@ -21,7 +21,8 @@ def get_version(path):
 setuptools.setup(
     name='torch-multilabel-embedding',
     version=get_version("torch_kshingle_embedding/__init__.py"),
-    description='Training of multi-label embeddings with k-shingled input sequences',
+    description=(
+        "Training of multi-label embeddings with k-shingled input sequences"),
     long_description=read('README.rst'),
     url='http://github.com/ulf1/torch-kshingle-embedding',
     author='Ulf Hamster',
