@@ -1,12 +1,9 @@
-[![PyPI version](https://badge.fury.io/py/torch-kshingle-embedding.svg)](https://badge.fury.io/py/torch-kshingle-embedding)
+[![PyPI version](https://badge.fury.io/py/torch-multilabel-embedding.svg)](https://badge.fury.io/py/torch-multilabel-embedding)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4284804.svg)](https://doi.org/10.5281/zenodo.4284804)
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/ulf1/torch-kshingle-embedding/master?urlpath=lab)
-[![Gitpod - Code Now](https://img.shields.io/badge/Gitpod-code%20now-blue.svg?longCache=true)](https://gitpod.io#https://github.com/ulf1/torch-kshingle-embedding)
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/ulf1/torch-kshingle-embedding.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ulf1/torch-kshingle-embedding/alerts/)
-[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/ulf1/torch-kshingle-embedding.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ulf1/torch-kshingle-embedding/context:python)
-[![torch-kshingle-embedding](https://snyk.io/advisor/python/torch-kshingle-embedding/badge.svg)](https://snyk.io/advisor/python/torch-kshingle-embedding)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/ulf1/torch-multilabel-embedding.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ulf1/torch-multilabel-embedding/alerts/)
+[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/ulf1/torch-multilabel-embedding.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ulf1/torch-multilabel-embedding/context:python)
 
-# torch-kshingle-embedding : Training of multi-label embeddings with k-shingled input sequences
+# torch-multilabel-embedding : Training of multi-label embeddings with k-shingled input sequences
 k-shingled input sequences are multi-dimensional, i.e. the input embedding must process multi-label inputs instead of one-hot encoded inputs.
 
 ## Usage
@@ -22,17 +19,17 @@ Table of Contents
 ## Appendix
 
 ### Installation
-The `torch-kshingle-embedding` [git repo](http://github.com/ulf1/torch-kshingle-embedding) is available as [PyPi package](https://pypi.org/project/torch-kshingle-embedding)
+The `torch-multilabel-embedding` [git repo](http://github.com/ulf1/torch-multilabel-embedding) is available as [PyPi package](https://pypi.org/project/torch-multilabel-embedding)
 
 ```sh
-pip install torch-kshingle-embedding
-pip install git+ssh://git@github.com/ulf1/torch-kshingle-embedding.git
+pip install torch-multilabel-embedding
+pip install git+ssh://git@github.com/ulf1/torch-multilabel-embedding.git
 ```
 
 ### Install a virtual environment
 
 ```sh
-python3.6 -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt --no-cache-dir
@@ -67,8 +64,8 @@ rm -r .venv
 
 
 ### Support
-Please [open an issue](https://github.com/ulf1/torch-kshingle-embedding/issues/new) for support.
+Please [open an issue](https://github.com/ulf1/torch-multilabel-embedding/issues/new) for support.
 
 
 ### Contributing
-Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/ulf1/torch-kshingle-embedding/compare/).
+Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/ulf1/torch-multilabel-embedding/compare/).
