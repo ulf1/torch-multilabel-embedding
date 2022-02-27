@@ -1,7 +1,7 @@
-<!-- [![PyPI version](https://badge.fury.io/py/torch-multilabel-embedding.svg)](https://badge.fury.io/py/torch-multilabel-embedding) -->
+[![PyPI version](https://badge.fury.io/py/torch-multilabel-embedding.svg)](https://badge.fury.io/py/torch-multilabel-embedding)
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4284804.svg)](https://doi.org/10.5281/zenodo.4284804) -->
-<!-- [![Total alerts](https://img.shields.io/lgtm/alerts/g/ulf1/torch-multilabel-embedding.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ulf1/torch-multilabel-embedding/alerts/) -->
-<!-- [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/ulf1/torch-multilabel-embedding.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ulf1/torch-multilabel-embedding/context:python) -->
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/ulf1/torch-multilabel-embedding.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ulf1/torch-multilabel-embedding/alerts/)
+[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/ulf1/torch-multilabel-embedding.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ulf1/torch-multilabel-embedding/context:python)
 
 # torch-multilabel-embedding : Training of multi-label embeddings with k-shingled input sequences
 k-shingled input sequences are multi-dimensional, i.e. the input embedding must process multi-label inputs instead of one-hot encoded inputs.
