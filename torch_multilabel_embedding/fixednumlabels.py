@@ -6,11 +6,11 @@ class MultiLabelEmbedding(torch.nn.Module):
 
     Examples:
     ---------
-    examples = [[1, 2, 4], [0, 1, 2], [2, 1, 4], [3, 2, 1]]
-    examples = torch.tensor(examples)
-    layer1 = MultiLabelEmbedding(
+    inputs = [[1, 2, 4], [0, 1, 2], [2, 1, 4], [3, 2, 1]]
+    inputs = torch.tensor(inputs)
+    layer = MultiLabelEmbedding(
         vocab_size=500000, embed_size=300, random_state=42)
-    y = layer1(examples)
+    y = layer(inputs)
     """
     def __init__(self,
                  vocab_size: int = None,

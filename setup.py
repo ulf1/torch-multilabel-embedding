@@ -22,7 +22,8 @@ setuptools.setup(
     name='torch-multilabel-embedding',
     version=get_version("torch_multilabel_embedding/__init__.py"),
     description=(
-        "Training of multi-label embeddings for k-shingled input sequences"),
+        "Training of multi-label embeddings for k-shingled input sequences"
+        " for PyTorch."),
     long_description=read('README.rst'),
     url='http://github.com/ulf1/torch-multilabel-embedding',
     author='Ulf Hamster',

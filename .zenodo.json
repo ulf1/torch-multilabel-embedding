@@ -3,7 +3,7 @@
     "name": "Ulf Hamster",
     "orcid": "0000-0002-0440-4868"
   }],
-  "title": "torch-multilabel-embedding : Training of multi-label embeddings with k-shingled input sequences",
+  "title": "torch-multilabel-embedding : Training of multi-label embeddings with PyTorch.",
   "description": "k-shingled input sequences are multi-dimensional, i.e. the input embedding must process multi-label inputs instead of one-hot encoded inputs.",
   "license": "Apache-2.0",
   "upload_type": "software",
