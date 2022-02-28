@@ -3,8 +3,12 @@
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/ulf1/torch-multilabel-embedding.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ulf1/torch-multilabel-embedding/alerts/)
 [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/ulf1/torch-multilabel-embedding.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ulf1/torch-multilabel-embedding/context:python)
 
-# torch-multilabel-embedding : Training of multi-label embeddings with k-shingled input sequences
-k-shingled input sequences are multi-dimensional, i.e. the input embedding must process multi-label inputs instead of one-hot encoded inputs.
+# torch-multilabel-embedding 
+The package contains a TensorFlow2/Keras class to train an Embedding matrix for multi-label inputs, i.e. instead of 1 ID per token (one hot encoding), N IDs per token can be provided as model input.
+
+An TensorFlow2/Keras implementation can be found here:
+https://github.com/ulf1/keras-multilabel-embedding
+(`pip install keras-multilabel-embedding`)
 
 ## Usage
 
