@@ -24,8 +24,7 @@ class MultiLabelEmbedding(torch.nn.Module):
         self.embed_size = embed_size   # e
         # layers
         self.weight = torch.nn.parameter.Parameter(
-            torch.empty((self.vocab_size, self.embed_size),
-                        **{'device': device, 'dtype': dtype}))
+            torch.empty((self.vocab_size, self.embed_size)))
         # initialize layer weights
         if random_state:
             torch.manual_seed(random_state)
