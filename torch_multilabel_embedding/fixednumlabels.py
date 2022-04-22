@@ -16,8 +16,7 @@ class MultiLabelEmbedding(torch.nn.Module):
                  vocab_size: int = None,
                  embed_size: int = None,
                  random_state: int = None,
-                 device: str = None,
-                 dtype: str = None):
+                 device: str = None):
         super(MultiLabelEmbedding, self).__init__()
         # store hyper params
         self.vocab_size = vocab_size   # v
