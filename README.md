@@ -2,6 +2,7 @@
 [![DOI](https://zenodo.org/badge/394390178.svg)](https://zenodo.org/badge/latestdoi/394390178)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/ulf1/torch-multilabel-embedding.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ulf1/torch-multilabel-embedding/alerts/)
 [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/ulf1/torch-multilabel-embedding.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ulf1/torch-multilabel-embedding/context:python)
+[![PyPi downloads](https://img.shields.io/pypi/dm/torch-multilabel-embedding)](https://img.shields.io/pypi/dm/torch-multilabel-embedding)
 
 # torch-multilabel-embedding 
 The package contains a TensorFlow2/Keras class to train an Embedding matrix for multi-label inputs, i.e. instead of 1 ID per token (one hot encoding), N IDs per token can be provided as model input.
